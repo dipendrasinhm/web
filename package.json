@@ -1,0 +1,43 @@
+{
+	"name": "fleja",
+	"version": "2.0.0",
+	"description": "Fleja | React Next Responsive Multi-Concept Template",
+	"main": "index.js",
+	"scripts": {
+		"dev": "node server.js -p $PORT",
+		"build": "next build",
+		"export": "next export",
+		"start": "NODE_ENV=production node server.js -p $PORT"
+	},
+	"author": "EnvyTheme.com",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"isomorphic-fetch": "^3.0.0",
+		"next": "^12.0.4",
+		"next-redux-wrapper": "^3.0.0",
+		"next-routes": "^1.4.2",
+		"nodemailer": "^6.7.2",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"react": "^17.0.2",
+		"react-accessible-accordion": "^3.3.5",
+		"react-dom": "^17.0.2",
+		"react-image-lightbox": "^5.1.4",
+		"react-masonry-component": "^6.3.0",
+		"react-modal-video": "^1.2.8",
+		"react-owl-carousel3": "^2.2.5",
+		"react-preloading-screen": "^1.0.2",
+		"react-redux": "^7.2.6",
+		"react-stripe-checkout": "^2.6.3",
+		"react-toastify": "^5.5.0",
+		"react-visibility-sensor": "^5.1.1",
+		"redux": "^4.1.2",
+		"redux-devtools-extension": "^2.13.9",
+		"redux-thunk": "^2.4.1",
+		"sass": "^1.43.5",
+		"stripe": "^7.63.1",
+		"wowjs": "^1.1.3"
+	}
+}
